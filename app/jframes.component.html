@@ -1,0 +1,12 @@
+
+<ul type="none">
+  <li *ngFor="#frame of jframes; #i = index">
+    <div class="cf">{{i+1}}-&nbsp; {{frame.name}} </div>
+      <ul type="square">
+        <li>Version: {{frame.ver}}</li>
+        <li>Type: {{frame.type}}</li>
+        <div>&nbsp;</div>
+      </ul>
+  </li>
+</ul>
+
